@@ -2,8 +2,7 @@
 
 function numberPrinter(number) {
   let numberList = [];
-  for (let currentNumber = 1; currentNumber <= number; currentNumber ++) {
-    console.log(currentNumber);
+  for (let currentNumber = 0; currentNumber <= number; currentNumber ++) {
     numberList.push(currentNumber);
   };
   return numberList;
@@ -19,8 +18,7 @@ $(document).ready(function () {
     let result = numberPrinter(number)
     $('#results').empty();
     result.forEach(function(number) {
-      $('#results').append([number]);
-      
+      $('#results').append('<p>' + number + '</p>');
       // console.log(number)
 
     });
