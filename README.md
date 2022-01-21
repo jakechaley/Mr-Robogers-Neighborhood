@@ -32,7 +32,17 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Tests
 
-
+// Describe: numberPrinter()
+Test: "It should print a list of numbers up to the number entered"
+code: 
+const number = 5
+numberPrinter(number)
+expected output: 
+1
+2
+3
+4
+5
 
 
 
