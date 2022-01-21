@@ -9,13 +9,7 @@ const neighbor = "Won't you be my neighbor?"
 function numberPrinter(number) {
   let numberList = [];
   for (let currentNumber = 0; currentNumber <= number; currentNumber ++) {
-    numberList.push(currentNumber.toString());
-    if (number.includes(1)) {
-      return number = beep;
-    } else {
-      return number
-    };
-
+    numberList.push(currentNumber);
   };
   return numberList;
 };
@@ -32,7 +26,6 @@ $(document).ready(function () {
     result.forEach(function(number) {
       $('#results').append('<p>' + number + '</p>');
       // console.log(number)
-
-    });
+      });
   });
 });
