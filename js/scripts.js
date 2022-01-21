@@ -1,9 +1,19 @@
 // BUSINESS LOGIC
+const beep = "beep!"
+const boop = "boop!"
+const neighbor = "Won't you be my neighbor?"
+
 
 function numberPrinter(number) {
   let numberList = [];
   for (let currentNumber = 0; currentNumber <= number; currentNumber ++) {
-    numberList.push(currentNumber);
+    numberList.push(currentNumber.toString());
+    if (number.includes(1)) {
+      return number = beep;
+    } else {
+      return number
+    };
+
   };
   return numberList;
 };

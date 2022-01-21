@@ -47,7 +47,14 @@ expected output:
 Describe: numberPrinter()
 Test: It should replace any number constaining the number 1 with  "Beep!"
 Code: 
-
+const = 5
+numberPrinter(number)
+expected output:
+Beep!
+2
+3
+4
+5
 
 
 ## License
