@@ -19,7 +19,8 @@ $(document).ready(function () {
     let result = numberPrinter(number)
     $('#results').empty();
     result.forEach(function(number) {
-      $('#results').append('<p>' + number + '</p>');
+      $('#results').append([number]);
+      
       // console.log(number)
 
     });
