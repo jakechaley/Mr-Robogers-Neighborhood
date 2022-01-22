@@ -59,9 +59,7 @@ Beep!
 5
 
 Describe: numberPrinter()
-Test: It should replace any number constaining the number 1 with  "Beep!"
-      It should replace any number constaining the number 2 with  "Boop!"
-      It should replace any number constaining the number 3 with  "Won't you be my neighbor?"
+Test: It should replace any number constaining the number 2 with  "Boop!"
 Code:
 Const: 5
 NumberPrinter(number)
@@ -69,7 +67,20 @@ Expected output:
 0
 Beep!
 Boop!
-"Won't you be my neighbor?
+3
+4
+5
+
+Describe: numberPrinter()
+Test: It should replace any number constaining the number 3 with  "Won't you be my neighbor?"
+Code:
+Const: 5
+NumberPrinter(number)
+Expected output:
+0
+Beep!
+Boop!
+3
 4
 5
 

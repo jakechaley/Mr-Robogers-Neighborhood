@@ -8,11 +8,14 @@ function numberPrinter(number) {
   let numberList = [];
   for (let currentNumber = 0; currentNumber <= number; currentNumber ++) {
     numberList.push(currentNumber.toString());
-    console.log(numberList)
   };
 
   const newList = numberList.map(function(number) {
-    if (number.includes('1')) {
+    if (number.includes('3')) {
+      return neighbor;
+    } else if (number.includes('2')) {
+      return boop;
+    } else if (number.includes('1')) {
       return beep;
     } else {
       return number;
@@ -32,7 +35,6 @@ $(document).ready(function () {
     $('#results').empty();
     result.forEach(function(number) {
       $('#results').append('<p>' + number + '</p>');
-      console.log(number)
       });
   });
 });
