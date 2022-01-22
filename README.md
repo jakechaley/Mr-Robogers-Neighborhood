@@ -1,38 +1,38 @@
-# _{Application Name}_
+# _Mr. Robogers_
 
-#### By _**{List of contributors}**_
+#### By _**Jake Haley**_
 
-#### _{Brief description of application}_
+#### _Enter a number and recieve a list of numbers. Some may look a little different..._
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _HTML_
+* _CSS_
+* _Bootstrap_
+* _JavaScript_
+* _jQuery_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_The user will enter a number and recieve a list of numbers back. For every number that contains a 1 that element will be replaced with "Beep!" For every number that contains a 2 that element will be replaced with "Boop!" For every number that contains a 3 that element will be replaced with "Won't you be my neighbor?"_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Clone the Repository_
+* _Open index.html in browser_
+* _See the live site [here!](https://jakechaley.github.io/Mr-Robogers-Neighborhood/)_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+
+
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known issues_
+* _Let me know if you find anything!_
 
 ## Tests
 
-// Describe: numberPrinter()
+Describe: numberPrinter()
 Test: "It should print a list of numbers up to the number entered"
 code: 
 const number = 5
@@ -88,6 +88,10 @@ Boop!
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+ISC License (ISC)
 
-Copyright (c) _date_ _author name(s)_
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+Copyright (c) _Jan. 21 2022_ _Jake C. Haley_
