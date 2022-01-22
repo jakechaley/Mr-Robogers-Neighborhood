@@ -4,7 +4,6 @@ const boop = "boop!"
 const neighbor = "Won't you be my neighbor?"
 
 
-
 function numberPrinter(number) {
   let numberList = [];
   for (let currentNumber = 0; currentNumber <= number; currentNumber ++) {
@@ -12,14 +11,14 @@ function numberPrinter(number) {
     console.log(numberList)
   };
 
-  const numberPrinter = numberList.map(function(number) {
+  const newList = numberList.map(function(number) {
     if (number.includes('1')) {
-      return number = beep;
+      return beep;
     } else {
       return number;
     };
   });
-  return numberList;
+  return newList;
 };
 
 
