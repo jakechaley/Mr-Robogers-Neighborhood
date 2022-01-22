@@ -14,7 +14,7 @@ function numberPrinter(number) {
 
   const numberPrinter = numberList.map(function(number) {
     if (number.includes('1')) {
-      return number = neighbor;
+      return number = beep;
     } else {
       return number;
     };
