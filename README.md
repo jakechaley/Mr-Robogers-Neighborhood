@@ -38,6 +38,7 @@ code:
 const number = 5
 numberPrinter(number)
 expected output: 
+0
 1
 2
 3
@@ -50,6 +51,7 @@ Code:
 const = 5
 numberPrinter(number)
 expected output:
+0s
 Beep!
 2
 3
